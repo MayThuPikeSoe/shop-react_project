@@ -1,0 +1,22 @@
+.login {
+  width: 100%;
+  background: #fce3fe;
+height: auto;
+padding: 90px;
+}
+.login_container {
+  width: 580px;
+  height: 500px;
+  background: white;
+
+  padding: 40px 60px;
+}
+.login_container h1 {
+  margin: 20px 0px;
+}
+.login .input{
+    width: 100%;
+}
+.login button{
+    width: 100%;
+}

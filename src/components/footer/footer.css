@@ -1,0 +1,21 @@
+.footer-logo p {
+  font-size: 46px;
+  font-weight: 700;
+}
+.footer_icon_item {
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+}
+.footer_copyright {
+  color: #1a1a1a;
+  font-size: 20px;
+}
+.footer_copyright hr{
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+}
+.footer hr{
+    width: 100%;
+}
