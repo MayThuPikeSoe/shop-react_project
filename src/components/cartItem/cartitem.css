@@ -1,0 +1,6 @@
+.cart_item{
+    grid-template-columns: 0.5fr 2.2fr 1fr 1fr 1fr 1fr;
+}
+.cart_item_left{
+    width: 50%;
+}

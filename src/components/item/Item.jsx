@@ -5,7 +5,7 @@ const Item = ({ image, name, new_price, old_price, id }) => {
   return (
     <div className="cursor-pointer transition-all duration-300 scale-100 hover:scale-105">
       <Link to={`/product/${id}`}>
-        <img src={image} alt="" />
+        <img onClick={window.scrollTo(0,0)} src={image} alt="" />
       </Link>
 
       <p>{name}</p>

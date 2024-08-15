@@ -1,10 +1,12 @@
 import logo from "./Assets/logo.png";
 import cart_icon from "./Assets/cart_icon.png";
 import "./navbar.css";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { ShopContent } from "./content/ShopContent";
 const NavBar = () => {
   const [menu, setMenu] = useState("shop");
+  const {getTotalCartItems}=useContext(ShopContent)
   return (
     <div className=" flex justify-between align-middle ">
       <div className="nav-logo">
@@ -54,7 +56,7 @@ const NavBar = () => {
           <img src={cart_icon} alt="" className="h-8 w-8" />
         </Link>
         <div className="nav-cart-count bg-red-500 -mt-8 -ml-4 h-5 w-5 border rounded-full text-center text-sm">
-          0
+          {getTotalCartItems()}
         </div>
       </div>
     </div>

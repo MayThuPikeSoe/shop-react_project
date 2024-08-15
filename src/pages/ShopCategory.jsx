@@ -19,8 +19,8 @@ const ShopCategory = (props) => {
           <span>Showing 1-12</span>
           out of 36 products
         </p>
-        <button className="shopcategory_sort w-32 h-10 border rounded-2xl flex items-center justify-center gap-5"  >
-          <span >Sort by </span> <img src={dropdown_icon} alt="" />
+        <button className="shopcategory_sort w-32 h-10 border rounded-2xl flex items-center justify-center gap-5">
+          <span>Sort by </span> <img src={dropdown_icon} alt="" />
         </button>
       </div>
       <div className="grid grid-cols-4 gap-10 mt-10">
